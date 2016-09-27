@@ -1,0 +1,6 @@
+framework module CHUtilities {
+  umbrella header "CHUtilities.h"
+
+  export *
+  module * { export * }
+}
