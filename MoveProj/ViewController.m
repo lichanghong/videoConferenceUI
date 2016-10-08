@@ -25,7 +25,6 @@
     [self.view addSubview:_confV];
     [self.view bringSubviewToFront:self.addButton];
     [self.view bringSubviewToFront:self.removeButton];
-    
     _confVideos = [NSMutableArray array];
     
     UIImageView *view = [[UIImageView alloc]init];

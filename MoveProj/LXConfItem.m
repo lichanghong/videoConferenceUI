@@ -17,7 +17,7 @@
 + (LXConfItem *)createLXConfItem
 {
     LXConfItem *item = [[LXConfItem alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
-    item.backgroundColor = RGB(arc4random()%255,arc4random()%255, arc4random()%255);
+    item.backgroundColor = [UIColor clearColor];// RGB(arc4random()%255,arc4random()%255, arc4random()%255);
     item.hidden = YES;
     return item;
 }

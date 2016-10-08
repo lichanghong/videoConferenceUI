@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "LXConfView.h"
-#import <CHUtilities/CHUtilities.h>
 
 @interface ViewController : UIViewController
 

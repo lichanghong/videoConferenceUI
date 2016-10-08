@@ -8,7 +8,6 @@
 
 #import "LXConfView.h"
 #import "LXConfItem.h"
-#import <CHUtilities/CHUtilities.h>
 
 #define KScreenWidth            [[UIScreen mainScreen] bounds].size.width
 #define KScreenHeight           [[UIScreen mainScreen] bounds].size.height

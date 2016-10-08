@@ -14,7 +14,6 @@
 		955C3C6B1D98F39C008A6894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955C3C6A1D98F39C008A6894 /* Assets.xcassets */; };
 		955C3C6E1D98F39C008A6894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955C3C6C1D98F39C008A6894 /* LaunchScreen.storyboard */; };
 		955C3CAF1D98F789008A6894 /* LXConfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 955C3CAE1D98F789008A6894 /* LXConfView.m */; };
-		955C3CB51D98F818008A6894 /* CHUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955C3CB41D98F818008A6894 /* CHUtilities.framework */; };
 		955C3CB81D98F9A8008A6894 /* LXConfItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 955C3CB71D98F9A8008A6894 /* LXConfItem.m */; };
 		956445601D9A1BB80058A6F3 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9564455F1D9A1BB80058A6F3 /* img4.png */; };
 		956445621D9A26DF0058A6F3 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 956445611D9A26DF0058A6F3 /* img1.png */; };
@@ -37,7 +36,6 @@
 		955C3CAD1D98F789008A6894 /* LXConfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXConfView.h; sourceTree = "<group>"; };
 		955C3CAE1D98F789008A6894 /* LXConfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXConfView.m; sourceTree = "<group>"; };
 		955C3CB21D98F80B008A6894 /* CHUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHUtilities.framework; path = MoveProj/CHUtilities.framework; sourceTree = "<group>"; };
-		955C3CB41D98F818008A6894 /* CHUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CHUtilities.framework; sourceTree = "<group>"; };
 		955C3CB61D98F9A8008A6894 /* LXConfItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXConfItem.h; sourceTree = "<group>"; };
 		955C3CB71D98F9A8008A6894 /* LXConfItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXConfItem.m; sourceTree = "<group>"; };
 		955C3CB91D98FB0B008A6894 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955C3CB51D98F818008A6894 /* CHUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +103,6 @@
 		955C3C5E1D98F39C008A6894 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				955C3CB41D98F818008A6894 /* CHUtilities.framework */,
 				955C3C5F1D98F39C008A6894 /* main.m */,
 			);
 			name = "Supporting Files";
